@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulse Play: Your Comprehensive Health Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pulse Play: Your Personalised Health Tracker</h1>
+        <img src="logo.png" alt="Pulse Play Logo" class="logo">
+        <div class="date" id="currentDate"></div>
+    </header>
+
+    <div class="container">
+        <div class="dashboard">
+            <!-- Steps Card -->
+            <div class="card">
+                <h2>Daily Steps</h2>
+                <div class="chart-container">
+                    <canvas id="stepsChart"></canvas>
+                </div>
+                <p>Steps: <span id="steps">1000</span></p>
+                <p>Calories Burned: <span id="calories">40.00</span> kcal</p>
+                <p id="exerciseSuggestion">Recommendation: Light walking</p>
+            </div>
+            <!-- Heart Rate Card -->
+            <div class="card">
+                <h2>Heart Rate</h2>
+                <div class="chart-container">
+                    <canvas id="heartRateChart"></canvas>
+                </div>
+                <p>Heart Rate: <span id="heartRate">70</span> bpm</p>
+                <p id="heartRateStatus"></p>
+            </div>
+            <!-- Oxygen Level Card -->
+            <div class="card">
+                <h2>Oxygen Level</h2>
+                <div class="chart-container">
+                    <canvas id="oxygenChart"></canvas>
+                </div>
+                <p>Oxygen: <span id="oxygenLevel">98</span>%</p>
+                <p id="oxygenStatus"></p>
+            </div>
+            <!-- Body Temperature Card -->
+            <div class="card">
+                <h2>Body Temperature</h2>
+                <p>Temperature: <span id="temperature">98.6</span> °F</p>
+                <p id="TemperatureRecommendation">Recommendation:Your body temperature is normal</p>
+                <p id="temperatureStatus"></p>
+            </div>
+            <!-- Water Intake Card -->
+            <div class="card water-intake">
+                <h2>Water Intake</h2>
+                <p>Water Intake: <span id="waterIntake">2</span> / 4 liters</p>
+                <p id="waterIntake">Skin Moisture: Normal</p>
+                <p id="waterIntake">Thirst Level: Mild</p>
+                <p id="IntakeRecommendation">Recommendation: Increase daily fluid intake by 2.5 litres</p>
+                <p id="waterReminder"></p>
+            </div>
+            <!-- Static Metrics Card -->
+            <div class="card">
+                <h2>Static Metrics</h2>
+                <p>Body Weight: 70kg</p>
+                <p>Height: 170cm</p>
+                <p>Blood Pressure: 120/80 mmHg</p>
+                <p>Sleep Duration: 7 hours (Deep Sleep: 3 hours, Light Sleep: 4 hours)</p>
+            </div>
+            <!-- Mood Tracker Card -->
+            <div class="card">
+                <h2>Mood Tracker</h2>
+                <p>Mood Prediction: <span id="moodStatus">Relaxed</span></p>
+            </div>
+            <!-- Dialysis Monitoring Card -->
+            <div class="card">
+                <h2>Dialysis Monitoring</h2>
+                <p id="dialysisStatus">Next dialysis schedule: 24 September,2024</p>
+            </div>
+
+            <div class="card">
+                <h2>Inflammation Status</h2>
+                <p id="inflammationStatus">Acute inflammation detected in knee area</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

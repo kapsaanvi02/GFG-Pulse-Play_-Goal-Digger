@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #ff2bf127;
+    --secondary-color: #FF416C;
+    --accent-color: #00E1FF;
+    --background-color: #c9d6d55a;
+    --card-background: #18163efb;
+    --text-color: #fffffffc;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(255, 75, 43, 0.3);
+}
+
+.logo { 
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 100px;  
+    height: auto;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: var(--card-background);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 12px 30px rgba(255, 75, 43, 0.2);
+}
+
+.card h2 {
+    color: var(--accent-color);
+    margin-top: 0;
+    font-size: 1.5em;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+}
+
+.chart-container {
+    position: relative;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.water-intake p {
+    text-align: center;
+}
+
+.notification {
+    color: #FFA500;
+    font-weight: bold;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+#dialysisStatus {
+    color: #FF6347; /* Red for alarming status */
+    font-weight: bold;
+}
+
+#inflammationStatus {
+    color: #FF6347; /* Red for alarming status */
+    font-weight: bold;
+}
+
+#IntakeRecommendation {
+    color: #FF6347; /* Red for alarming status */
+    font-weight: bold;
+}
+
+#TemperatureRecommendation {
+    color: #74da35; /* Red for alarming status */
+    font-weight: bold;
+}
