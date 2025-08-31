@@ -11,9 +11,6 @@
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 [![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white)](https://soliditylang.org/)
 
-![Dashboard Preview](c:\Users\saish\Pictures\Screenshots\Screenshot 2025-08-31 151416.png)
-*Real-time health monitoring dashboard with comprehensive metrics tracking*
-
 </div>
 
 ---
@@ -31,12 +28,6 @@ Pulse Play revolutionizes personal healthcare monitoring through an intelligent,
 - **Responsive Design**: Beautiful, mobile-first interface with smooth animations
 
 ---
-
-## 📸 Live Dashboard Features
-
-<div align="center">
-<imgsrc="c:\Users\saish\Pictures\Screenshots\Screenshot 2025-08-31 151416.png" alt="Pulse Play Dashboard" width="90%">
-</div>
 
 ### 🔥 Real-Time Metrics Showcase
 
