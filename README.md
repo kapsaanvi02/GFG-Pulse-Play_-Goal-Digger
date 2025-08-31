@@ -303,7 +303,7 @@ We welcome contributions to make Pulse Play even better! Whether it's:
 
 *Pulse Play - Where Technology Meets Healthcare* 🩺
 
-[![⭐ Star this repo](https://img.shields.io/github/stars/your-username/GFG-Pulse-Play_-Goal-Digger?style=social)](https://github.com/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger)
-[![🍴 Fork this repo](https://img.shields.io/github/forks/your-username/GFG-Pulse-Play_-Goal-Digger?style=social)](https://github.com/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger/fork)
+[![⭐ Star this repo](https://img.shields.io/github/stars/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger?style=social)](https://github.com/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger)
+[![🍴 Fork this repo](https://img.shields.io/github/forks/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger?style=social)](https://github.com/kapsaanvi02/GFG-Pulse-Play_-Goal-Digger/fork)
 
 </div>
